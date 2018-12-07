@@ -1,12 +1,15 @@
 html {
   box-sizing: border-box;
-  background-color: #e2e2e2;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: #f2f2f2;
 }
 
 header {
@@ -18,7 +21,37 @@ section {
   text-align: left;
 }
 
+.card {
+  border-left: 1px solid #333;
+  padding: .75rem;
+  background-color: #e2e2e2;
+}
+
+.card2 {
+  border-left: 1px solid #333;
+  padding: .75rem;
+  background-color: #ccc;
+}
+
+.card3 {
+  border-left: 1px solid #333;
+  padding: .75rem;
+  background-color: #aaa;
+}
+
+.card4 {
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  padding: .75rem;
+  background-color: #999;
+}
+
 img {
+  display: block;
+  width: 100%;
+}
+
+.img {
   width: 100px;
 }
 
