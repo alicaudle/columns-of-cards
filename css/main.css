@@ -70,13 +70,14 @@ h2 {
   font-size: 1rem;
   font-weight: bold;
   margin-bottom: 0;
-  padding-top: .60rem;
+  padding-top: .65rem;
 }
 
 h3 {
   font-size: .875rem;
   font-style: italic;
   margin: 0;
+  padding-bottom: .4rem;
 }
 
 p {
