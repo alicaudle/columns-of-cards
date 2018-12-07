@@ -10,7 +10,6 @@ html {
 }
 
 header {
-  font-size: 2rem;
   text-align: center;
 }
 
@@ -39,7 +38,7 @@ p {
   font-size: 1rem;
 }
 
-a {
+.btn {
   text-decoration: none;
   border: 2px solid #333;
   background-color: #333;
@@ -49,6 +48,10 @@ a {
   padding: .1rem 3rem .1rem .5rem;
 }
 
-a:hover {
+.btn-small {
+  font-size: .5rem;
+}
+
+.btn:hover {
   background-color: #000;
 }
