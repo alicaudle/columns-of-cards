@@ -24,6 +24,12 @@ section {
 }
 
 .card {
+  width: 25%
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card1 {
   border-left: 1px solid #333;
   padding: .75rem;
   background-color: #e2e2e2;
